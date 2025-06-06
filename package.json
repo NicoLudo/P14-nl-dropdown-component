@@ -1,6 +1,10 @@
 {
   "name": "nl-dropdown-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple dropdown component",
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-user/repo-url.git"
+  }
 }
