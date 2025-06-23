@@ -1,10 +1,26 @@
 {
-  "name": "nl-dropdown-component",
-  "version": "1.0.1",
-  "description": "A simple dropdown component",
+  "name": "@nicoludo/nl-dropdown-component",
+  "version": "1.0.4",
+  "description": "A simple React dropdown.",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NicoLudo/P14-nl-dropdown-component.git"
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "npx babel src --out-dir dist --copy-files",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Nicolas Ludosan",
+  "license": "MIT",
+  "keywords": ["dropdown", "component", "react"],
+  "repository": "https://github.com/NicoLudo/P14-nl-dropdown-component.git",
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0"
   }
 }
