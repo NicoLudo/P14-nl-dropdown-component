@@ -1,6 +1,6 @@
 {
   "name": "@nicoludo/nl-dropdown-component",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple React dropdown.",
   "type": "module",
   "main": "dist/index.js",
