@@ -15,8 +15,11 @@
   "keywords": ["dropdown", "component", "react"],
   "repository": "git+https://github.com/NicoLudo/P14-nl-dropdown-component.git",
   "peerDependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "engine": {
+    "node": ">=22.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
