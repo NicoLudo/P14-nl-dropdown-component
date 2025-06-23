@@ -1,18 +1,25 @@
 {
   "name": "@nicoludo/nl-dropdown-component",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A simple React dropdown.",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "npx babel src --out-dir dist --copy-files",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "author": "Nicolas Ludosan",
   "license": "MIT",
-  "keywords": ["dropdown", "component", "react"],
+  "keywords": [
+    "dropdown",
+    "component",
+    "react"
+  ],
   "repository": "git+https://github.com/NicoLudo/P14-nl-dropdown-component.git",
   "peerDependencies": {
     "react": "^19.0.0",
